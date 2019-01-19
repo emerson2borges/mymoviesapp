@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "151801637362",
+    "firebase_url": "https://mymoviesapp-5dee0.firebaseio.com",
+    "project_id": "mymoviesapp-5dee0",
+    "storage_bucket": "mymoviesapp-5dee0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151801637362:android:25a9fe6cc341a165",
+        "android_client_info": {
+          "package_name": "com.borges.emerson.mymoviesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151801637362-ihgppvq5oske6agbkbpi2sj1k8nhrk7u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.borges.emerson.mymoviesapp",
+            "certificate_hash": "6d27d4dd4ecd38dec3d90f060c8b0884e0e515b0"
+          }
+        },
+        {
+          "client_id": "151801637362-1f78ij2rs2glhn49h43edsgc7o80978c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVSZSrsQ51-j_VtD6jimk7fbzUKWtSp4U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151801637362-1f78ij2rs2glhn49h43edsgc7o80978c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
