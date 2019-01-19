@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Dimensoes da tela do filme -->
+    <dimen name="activity_filme_tamanho_do_ano">50dp</dimen>
+    <dimen name="activity_filme_tamanho_do_titulo">35dp</dimen>
+    <dimen name="activity_filme_tamanho_do_tempo">30dp</dimen>
+
+</resources>

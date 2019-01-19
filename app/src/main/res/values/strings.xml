@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+
+    <!-- BATMAN VS SUPERMAN-->
+    <string name="titulo_batmanvssuperman">Batman vs Superman</string>
+    <string name="ano_batmanvssuperman">2016</string>
+    <string name="duracao_batmanvssuperman">153 min</string>
+    <string name="ratio_batmanvssuperman">4.5/5.0</string>
+    <string name="favorito_batmanvssuperman">true</string>
+    <string name="sinopse_batmanvssuperman">O confronto entre Superman (Henry Cavill) e Zod (Michael Shannon) em Metrópolis fez com que a população mundial se dividisse acerca da existência de extra-terrestres na Terra. Enquanto muitos consideram o Superman como um novo deus, há aqueles que consideram extremamente perigoso que haja um ser tão poderoso sem qualquer tipo de controle. Bruce Wayne (Ben Affleck) é um dos que acreditam nesta segunda hipótese. Sob o manto de um Batman violento e obcecado, ele investiga o laboratório de Lex Luthor (Jesse Eisenberg), que descobriu uma pedra verde que consegue eliminar e enfraquecer os filhos de Krypton.</string>
+    <string name="trailer_batmanvssuperman">https://www.youtube.com/watch?v=IHDgrNxO-5I</string>
+
+    <!-- DE VOLTA PARA O FUTURO -->
+    <string name="titulo_futuro">De Volta Para o Futuro</string>
+    <string name="ano_futuro">1985</string>
+    <string name="duracao_futuro">116 min</string>
+    <string name="ratio_futuro">4.7/5.0</string>
+    <string name="favorito_futuro">true</string>
+    <string name="sinopse_futuro">Um jovem (Michael J. Fox) aciona acidentalmente uma máquina do tempo construída por um cientista (Christopher Lloyd) em um Delorean, retornando aos anos 50. Lá conhece sua mãe (Lea Thompson), antes ainda do casamento com seu pai, que fica apaixonada por ele. Tal paixão põe em risco sua própria existência, pois alteraria todo o futuro, forçando-o a servir de cupido entre seus pais.</string>
+    <string name="trailer_futuro">https://www.youtube.com/watch?v=FHDKexBsSlU</string>
+
+    <!-- 007 CONTRA SPECTRE -->
+    <string name="titulo_bondspectre">007 Contra Spectre</string>
+    <string name="ano_bondspectre">2015</string>
+    <string name="duracao_bondspectre">150 min</string>
+    <string name="ratio_bondspectre">4.2/5.0</string>
+    <string name="favorito_bondspectre">true</string>
+    <string name="sinopse_bondspectre">James Bond (Daniel Craig) vai à Cidade do México com a tarefa de eliminar Marco Sciarra (Alessandro Cremona), sem que seu chefe, M (Ralph Fiennes), tenha conhecimento. Isto faz com que Bond seja suspenso temporariamente de suas atividades e que Q (Ben Whishaw) instale em seu sangue um localizador, que permite que o governo britânico saiba sempre em que parte do planeta ele está. Apesar disto, Bond conta com a ajuda de seus colegas na organização para que possa prosseguir em sua investigação pessoal sobre a misteriosa organização chamada Spectre.</string>
+    <string name="trailer_bondspectre">https://www.youtube.com/watch?v=XnQtycFKCGs</string>
+
+    <!--  TUBARAO -->
+    <string name="titulo_tubarao">Tubarão</string>
+    <string name="ano_tubarao">1975</string>
+    <string name="duracao_tubarao">124</string>
+    <string name="ratio_tubarao">4.3/5.0</string>
+    <string name="favorito_tubarao">true</string>
+    <string name="sinopse_tubarao">Um terrível ataque a banhistas é o sinal de que a praia da pequena cidade de Amity virou refeitório de um gigantesco tubarão branco, que começa a se alimentar dos turistas. Embora o prefeito queira esconder os fatos da mídia, o xerife local (Roy Scheider) pede ajuda a um ictiologista (Richard Dreyfuss) e a um pescador veterano (Robert Shaw) para caçar o animal. Mas a missão vai ser mais complicada do que eles imaginavam.</string>
+    <string name="trailer_tubarao">https://www.youtube.com/watch?v=U1fu_sA7XhE</string>
+
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.borges.emerson.mymoviesapp.Filme">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Batman vs Superman"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="@dimen/activity_filme_tamanho_do_titulo" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/batmanvssuperman50" />
+
+                <TextView
+                    android:id="@+id/txtAno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginStart="41dp"
+                    android:layout_toEndOf="@+id/imageView5"
+                    android:layout_toRightOf="@+id/imageView5"
+                    android:text="2016"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/corDoAno"
+                    android:textSize="@dimen/activity_filme_tamanho_do_ano" />
+
+                <TextView
+                    android:id="@+id/txtDuracao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/txtAno"
+                    android:layout_alignStart="@+id/txtAno"
+                    android:layout_below="@+id/txtAno"
+                    android:text="153 min"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/corDaDuracao"
+                    android:textSize="@dimen/activity_filme_tamanho_do_tempo"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/txtRatio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/txtDuracao"
+                    android:layout_alignStart="@+id/txtDuracao"
+                    android:layout_below="@+id/txtDuracao"
+                    android:text="4.5/5.0"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/corDoRatio"
+                    android:textSize="20dp" />
+
+                <ToggleButton
+                    android:id="@+id/tgFavorite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/txtAno"
+                    android:layout_alignLeft="@+id/txtRatio"
+                    android:layout_alignRight="@+id/txtAno"
+                    android:layout_alignStart="@+id/txtRatio"
+                    android:layout_below="@+id/txtRatio"
+                    android:textOn="Favorito"
+                    android:textOff="Favorito"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txtSinopse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A sinopse do filme deve ficar nesse espaço dedicado a essa finalidade."
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtTrailers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trailers:"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/imgTrailer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:background="@drawable/youtube12"
+                        />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
